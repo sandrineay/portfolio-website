@@ -1,0 +1,23 @@
+#banner {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(#13D0F2, #92FE9D);
+}
+
+#banner h1, p {
+  font-size: 40px;
+  color: rgb(255,255,255);
+}
+
+.bold-text {
+  font-weight: 800;
+}
+
+.tech-logo {
+  background-image: url('../../assets/ruby.png');
+  mix-blend-mode: overlay;
+  height: 400px;
+}

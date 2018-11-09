@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,800');
+
+@import url("components/banner.css");
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
