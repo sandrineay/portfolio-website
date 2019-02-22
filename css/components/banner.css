@@ -12,6 +12,23 @@
   color: rgb(255,255,255);
 }
 
+#ruby {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/ruby-green.png');
+  transition: background-image 0.5s ease;
+  background-size: 60px;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px;
+}
+
+#ruby:hover {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/ruby.png');
+  background-size: 60px;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px;
+}
+
 #resume {
   display: flex;
   justify-content: space-between;
@@ -38,10 +55,4 @@
 
 .bold-text {
   font-weight: 800;
-}
-
-.tech-logo {
-  background-image: url('../../assets/ruby.png');
-  mix-blend-mode: overlay;
-  height: 400px;
 }
