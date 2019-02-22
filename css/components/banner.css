@@ -12,6 +12,12 @@
   color: rgb(255,255,255);
 }
 
+#tech-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 #ruby {
   background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/ruby-green.png');
   transition: background-image 0.5s ease;
@@ -19,13 +25,112 @@
   background-repeat: no-repeat;
   height: 60px;
   width: 60px;
+  margin: 0 20px;
 }
 
 #ruby:hover {
   background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/ruby.png');
+}
+
+#rails {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/rails-green.png');
+  transition: background-image 0.5s ease;
   background-size: 60px;
   background-repeat: no-repeat;
   height: 60px;
   width: 60px;
+  margin: 0 20px;
 }
 
+#rails:hover {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/rails-logo.png');
+}
+
+#postgres {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/postgres-green.png');
+  transition: background-image 0.5s ease;
+  background-size: 60px;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px;
+  margin: 0 20px;
+}
+
+#postgres:hover {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/postgres.png');
+}
+
+#git {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/git-green.png');
+  transition: background-image 0.5s ease;
+  background-size: 60px;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px;
+  margin: 0 20px;
+}
+
+#git:hover {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/git.png');
+}
+
+#heroku {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/heroku-green.png');
+  transition: background-image 0.5s ease;
+  background-size: 60px;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px;
+  margin: 0 20px;
+}
+
+#heroku:hover {
+ background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/heroku.png');
+}
+
+#javascript {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/javascript-green.png');
+  transition: background-image 0.5s ease;
+  background-size: 60px;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px;
+  margin: 0 20px;
+}
+
+#javascript:hover {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/javascript.png');
+}
+
+#html {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/html-green.png');
+  transition: background-image 0.5s ease;
+  background-size: 60px;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px;
+  margin: 0 20px;
+}
+
+#html:hover {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/html.png');
+}
+
+#css {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/css-green.png');
+  transition: background-image 0.5s ease;
+  background-size: 60px;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px;
+  margin: 0 20px;
+}
+
+#css:hover {
+  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/css.png');
+}
+
+
+/*0 155 87*/
+
+/*30 254 162*/
