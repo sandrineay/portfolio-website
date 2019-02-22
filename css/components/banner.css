@@ -29,30 +29,3 @@
   width: 60px;
 }
 
-#resume {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 200px;
-}
-
-#resume img {
-  border-radius: 50%;
-  max-width: 200px;
-  max-height: 200px;
-}
-
-#resume p {
-  color: rgb(30,30,30);
-  font-size: 16px;
-}
-
-#resume-content {
-  max-width: 800px;
-  margin-left: 50px;
-  text-align: justify;
-}
-
-.bold-text {
-  font-weight: 800;
-}
