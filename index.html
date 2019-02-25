@@ -5,22 +5,29 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+
     <div id="banner">
-      <div class="text-center">
-        <h1>Hi, my name is Sandrine.</h1>
-        <p>I am a <span class="bold-text">fullstack web developer</span>.</p>
+      <div id="banner-content">
+        <div class="text-center">
+          <h1>Hi, my name is Sandrine.</h1>
+          <p>I am a <span class="bold-text">fullstack web developer</span>.</p>
+        </div>
+        <div id="tech-logo">
+          <div id="ruby"></div>
+          <div id="rails"></div>
+          <div id="postgres"></div>
+          <div id="git"></div>
+          <div id="heroku"></div>
+          <div id="javascript"></div>
+          <div id="html"></div>
+          <div id="css"></div>
+        </div>
       </div>
-      <div id="tech-logo">
-        <div id="ruby"></div>
-        <div id="rails"></div>
-        <div id="postgres"></div>
-        <div id="git"></div>
-        <div id="heroku"></div>
-        <div id="javascript"></div>
-        <div id="html"></div>
-        <div id="css"></div>
-      </div>
+      <section id="scroll-banner" class="demo">
+        <a href="#resume" id="scroll-resume"><span></span></a>
+      </section>
     </div>
+
     <div id="resume">
       <img src="https://raw.githubusercontent.com/sandrineay/placeholders/master/prof_pic.jpg" alt="">
       <div id="resume-content">
@@ -28,7 +35,49 @@
         <p>Working with developers made me want to become one myself. I decided to “jump on the other side” and to learn how to code in 2017, and have now been happily coding for 1.5 years! 👩‍💻</p>
       </div>
     </div>
+
     <div id="timeline">
+      <div class="timeline-tabs">
+        <div class="timeline-tab-item" id="tab-2009">2009</div>
+        <div class="timeline-tab-item" id="tab-2012">2012</div>
+        <div class="timeline-tab-item" id="tab-2013">2013</div>
+        <div class="timeline-tab-item" id="tab-2014">2014</div>
+        <div class="timeline-tab-item" id="tab-2015">2015</div>
+        <div class="timeline-tab-item" id="tab-2016">2016</div>
+        <div class="timeline-tab-item" id="tab-2017">2017</div>
+        <div class="timeline-tab-item" id="tab-2018">2018</div>
+        <div class="timeline-tab-item" id="tab-2019">2019</div>
+      </div>
+      <div class="timeline-tab-content" id="tab-content-2009">
+        Entering ESSEC
+      </div>
+      <div class="timeline-tab-content" id="tab-content-2012">
+        VC analyst + Le Camping
+      </div>
+      <div class="timeline-tab-content" id="tab-content-2013">
+        TheFamily years
+      </div>
+      <div class="timeline-tab-content" id="tab-content-2014">
+        Bitcoin years
+      </div>
+      <div class="timeline-tab-content" id="tab-content-2015">
+        Crypto years + Move to London
+      </div>
+      <div class="timeline-tab-content" id="tab-content-2016">
+        SMR
+      </div>
+      <div class="timeline-tab-content" id="tab-content-2017">
+        Le Wagon
+      </div>
+      <div class="timeline-tab-content" id="tab-content-2018">
+        Le Wagon dev
+      </div>
+      <div class="timeline-tab-content" id="tab-content-2019">
+        Leap of faith
+      </div>
     </div>
+
   </body>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript/scroll.js"></script>
 </html>
