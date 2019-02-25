@@ -4,11 +4,14 @@
 }
 
 .timeline-tab-content {
- height: 100vh;
+  height: 100vh;
+  display: none;
 }
 
-#tab-content-2014 {
-  background-image: url('https://raw.githubusercontent.com/sandrineay/placeholders/master/bitcoin-wallpaper.jpg');
-  background-size: 100vw;
-  background-repeat: no-repeat;
+.active {
+  display: block;
+}
+
+.active-tab {
+  font-weight: bolder;
 }
