@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,500,800');
 
 @import url("components/banner.css");
+@import url("components/footer.css");
 @import url("components/resume.css");
 @import url("components/scroll.css");
 @import url("components/tabs.css");
