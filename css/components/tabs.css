@@ -1,9 +1,21 @@
+#timeline {
+  position: relative;
+}
+
 .timeline-tabs {
+  padding: 20px 200px;
+  position: absolute;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.timeline-tab-item {
+  cursor: pointer;
 }
 
 .timeline-tab-content {
+  padding-top: 60px;
   height: 100vh;
   display: none;
 }
@@ -14,4 +26,20 @@
 
 .active-tab {
   font-weight: bolder;
+}
+
+#essec-content {
+  margin-left: 200px;
+  margin-top: 30px;
+  width: 300px;
+}
+
+#essec-content p {
+  color: rgb(30,30,30);
+  font-size: 16px;
+}
+
+#essec-content a {
+  color: rgb(30,30,30);
+  font-weight: bold;
 }
