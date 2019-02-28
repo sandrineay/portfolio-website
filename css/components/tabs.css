@@ -28,18 +28,23 @@
   font-weight: bolder;
 }
 
-#essec-content {
+.timeline-content {
   margin-left: 200px;
   margin-top: 30px;
   width: 300px;
 }
 
-#essec-content p {
+.timeline-content p {
   color: rgb(30,30,30);
   font-size: 16px;
 }
 
-#essec-content a {
+.timeline-content a {
   color: rgb(30,30,30);
   font-weight: bold;
+}
+
+.timeline-content-background {
+  background-color: rgba(255,255,255,0.7);
+  padding: 15px;
 }
